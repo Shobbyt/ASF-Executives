@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ASF Executives</title>
+  <style>
+    * {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  padding-top: 100px;
+  padding-bottom: 120px;
+}
+
+header {
+  background-color: #002147;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  flex-wrap: wrap;
+}
+
+.logo {
+  height: 60px;
+  margin-right: 15px;
+}
+
+.header-text {
+  text-align: right;
+  font-size: 14px;
+}
+
+.header-text h1 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.header-text p {
+  margin: 0;
+  font-size: 14px;
+}
+
+h2 {
+  text-align: center;
+  color: #002147;
+  margin-top: 30px;
+}
+
+.executive-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.executive-card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  width: 180px;
+  text-align: center;
+  padding: 10px;
+  flex-shrink: 0;
+}
+
+.executive-card img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.executive-card h3 {
+  margin: 10px 0 5px;
+  font-size: 16px;
+  color: #002147;
+}
+
+.executive-card p {
+  margin: 0;
+  font-size: 14px;
+  color: #555;
+}
+
+.note {
+  text-align: center;
+  padding: 20px;
+  color: #002147;
+}
+
+.note a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.note a:hover {
+  text-decoration: underline;
+}
+
+.motto {
+  text-align: center;
+  margin-top: 20px;
+  font-style: italic;
+  color: #002147;
+}
+
+.coming-soon {
+  text-align: center;
+  margin: 20px;
+  color: #ff6600;
+  font-weight: bold;
+}
+
+footer {
+  background-color: #002147;
+  color: white;
+  text-align: center;
+  padding: 15px 10px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  font-size: 14px;
+}
+
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .header-text {
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .executive-card {
+    width: 90%;
+  }
+}
+
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="asf pix/asf.jpeg" alt="ASF Logo" class="logo" />
+    <div class="header-text">
+      <h1>Anglican Student Fellowship</h1>
+      <p>Uniosun, Osogbo Branch</p>
+    </div>
+  </header>
+
+  <h2>Meet the 2025/2026 ASF Executives</h2>
+
+  <div class="executive-section">
+    <!-- Top 2 executives -->
+    <div class="executive-card">
+      <img src="asf pix/enny.png" alt="President">
+      <h3>Sister Adetunji Enioluwa</h3>
+      <p>President</p>
+    </div>
+
+    <div class="executive-card">
+      <img src="asf pix/timi.jpg" alt="Vice President">
+      <h3>Bro Timi Oyediran</h3>
+      <p>Vice President & Ast. Prayer Secretary</p>
+    </div>
+  </div>
+
+  <div class="executive-section">
+    <!-- 3 Sample placeholders for others -->
+    <div class="executive-card">
+      <img src="asf pix/peace.jpeg" alt="Executive 4">
+      <h3>Sis Olugbemi Peace</h3>
+      <p>General Secretary & Organizing Secretary</p>
+    </div>
+
+     <div class="executive-card">
+      <img src="asf pix/oba.png" alt="Executive 4">
+      <h3>Bro Oyeniran Obaloluwa</h3>
+      <p>Brother's Coordinator</p>
+    </div>
+    
+
+     <div class="executive-card">
+      <img src="asf pix/feranmi.png" alt="Executive 4">
+      <h3>Sis Ilesanmi Feranmi</h3>
+      <p>Sister's Coordinator & Welfare Secretary</p>
+    </div>
+
+    <div class="executive-card">
+      <img src="asf pix/yemi.png" alt="Executive 4">
+      <h3>Sis Olorunda Olayemi</h3>
+      <p>Choir Secretary</p>
+    </div>
+
+    <div class="executive-card">
+      <img src="asf pix/cfavour.png" alt="Executive 4">
+      <h3>Sis Favour Oyelami</h3>
+      <p>Ast. Choir Secretary</p>
+    </div>
+
+    <div class="executive-card">
+      <img src="asf pix/victor.png" alt="Executive 4">
+      <h3>Bro Babaola Victor</h3>
+      <p>Media & Publicity Secretary</p>
+    </div>
+
+    <div class="executive-card">
+      <img src="asf pix/fiyin.png" alt="Executive 4">
+      <h3>Sis Tanimowo Fiyifoluwa</h3>
+      <p>Financial Secretary</p>
+    </div>
+
+    <div class="executive-card">
+      <img src="asf pix/rachael.png" alt="Executive 4">
+      <h3>Sis Taiwo Rachael</h3>
+      <p>Bible Study Coordinator & Principal of School of Foundation</p>
+    </div>
+
+    <div class="executive-card">
+      <img src="asf pix/pmary.png" alt="Executive 4">
+      <h3>Sis Aderiye Mary</h3>
+      <p>Prayer Secretary</p>
+    </div>
+
+    <div class="executive-card">
+      <img src="asf pix/emary.jpeg" alt="Executive 4">
+      <h3>Sis Mary</h3>
+      <p>Evangelism Secretary</p>
+    </div>
+
+
+    <div class="executive-card">
+      <img src="asf pix/ise.png" alt="Executive 4">
+      <h3>Sis Akinsola Iseoluwa</h3>
+      <p>Ushering Secretary</p>
+    </div>
+
+    <div class="executive-card">
+      <img src="asf pix/dayo.jpeg" alt="Executive 4">
+      <h3>Bro Dayo Olusesi</h3>
+      <p>Technical & Transport Secretary</p>
+    </div>
+
+    <div class="executive-card">
+      <img src="asf pix/dfavour.png" alt="Executive 4">
+      <h3>Sis Favour Onwuka</h3>
+      <p>Decoration & Sanitation Secretary</p>
+    </div>
+
+    <div class="executive-card">
+      <img src="asf pix/happiness.png" alt="Executive 4">
+      <h3>Sis Loto happiness</h3>
+      <p>Academic & Library Secretary</p>
+    </div>
+
+    <div class="executive-card">
+      <img src="asf pix/tomi.png" alt="Executive 4">
+      <h3>Sis Olu-Adebayo Tomilayo</h3>
+      <p>Ast. Gen Sec. & Ast. Organizing Secretary</p>
+    </div>
+
+    <!-- Add the rest as you continue... -->
+  </div>
+
+  <div class="note">
+    <p>If you have any complaint concerning your name or not pleased with the picture used,<br>
+    Kindly message Shobby, the developer <a href="https://api.whatsapp.com/send?phone=2348163081445&text=Hello%20Shobby,%20I%20am%20one%20of%20the%20executives%20in%20ASF.%20I%20would%20like%20to%20make%20some%20changes%20concerning%20my%20details%20on%20the%20website.%20My%20name%20is">here</a>.</p>
+  </div>
+
+  <div class="motto">
+    <p>ASF, Arise..... Shine<br>ASF, .... restoring the ancient landmark</p>
+  </div>
+
+  <div class="coming-soon">
+    Full Website Coming Soon – Next Session – Stay Tuned
+  </div>
+
+  <footer>
+    Web Developed by Shobby<br>
+    © 2025 | ASF Media Team
+  </footer>
+
+</body>
+</html>
